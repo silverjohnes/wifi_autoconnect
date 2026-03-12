@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WiFi AutoConnect</string>
+    <string name="label_target_network">Docelowa sieć Wi-Fi</string>
+    <string name="hint_ssid">Najpierw połącz się z siecią docelową</string>
+    <string name="btn_clear">Wyczyść</string>
+    <string name="btn_wifi_settings">Ustawienia Wi-Fi</string>
+    <string name="label_interval">Interwał prób połączenia</string>
+    <string name="btn_start_service">▶  Uruchom usługę</string>
+    <string name="btn_stop_service">⏹  Zatrzymaj usługę</string>
+    <string name="status_service_stopped">Usługa zatrzymana</string>
+    <string name="status_service_starting">Uruchamianie usługi…</string>
+    <string name="status_service_running">Usługa działa, cel: «%1$s»</string>
+    <string name="toast_enter_ssid">Wprowadź nazwę sieci</string>
+    <string-array name="interval_labels">
+        <item>5 sek.</item><item>10 sek.</item><item>20 sek.</item><item>30 sek.</item><item>60 sek.</item>
+    </string-array>
+    <string name="status_wifi_disabled_manual">Wi-Fi wyłączone ręcznie — nie włączam (próba %1$d)</string>
+    <string name="status_wifi_enabling">Wi-Fi wyłączone — włączam… (próba %1$d)</string>
+    <string name="status_connected">✓ Połączono z «%1$s» (próba %2$d)</string>
+    <string name="status_connecting">Łączenie z «%1$s»… (próba %2$d)</string>
+    <string name="status_no_root">Brak dostępu root! Przyznaj uprawnienia w Magisk. (próba %1$d)</string>
+    <string name="status_network_not_found">Sieć «%1$s» nie znaleziona. Połącz się raz ręcznie. (próba %2$d)</string>
+    <string name="status_command_sent">[iface:%1$s] Polecenie połączenia wysłane (próba %2$d)</string>
+    <string name="status_error">Błąd połączenia: %1$s (próba %2$d)</string>
+    <string name="status_network_lost">Połączenie z «%1$s» utracone — ponawiam…</string>
+    <string name="status_service_launched">Usługa uruchomiona, cel: «%1$s»</string>
+    <string name="notification_channel_name">Wi-Fi Automatyczne połączenie</string>
+    <string name="notification_title">Wi-Fi Automatyczne połączenie</string>
+    <string name="notification_starting">Uruchamianie…</string>
+    <string name="boot_worker_channel_name">Autostart</string>
+    <string name="boot_worker_notification_text">Przywracanie usługi po ponownym uruchomieniu…</string>
+    <string name="toast_clear_while_connected">Aby wybrać inną sieć, wyłącz Wi-Fi lub połącz się z inną siecią.</string>
+</resources>

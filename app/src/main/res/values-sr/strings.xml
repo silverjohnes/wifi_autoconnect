@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WiFi AutoConnect</string>
+    <string name="label_target_network">Циљна Wi-Fi мрежа</string>
+    <string name="hint_ssid">Прво се повежите на циљну мрежу</string>
+    <string name="btn_clear">Обриши</string>
+    <string name="btn_wifi_settings">Wi-Fi поставке</string>
+    <string name="label_interval">Интервал покушаја повезивања</string>
+    <string name="btn_start_service">▶  Покрени сервис</string>
+    <string name="btn_stop_service">⏹  Заустави сервис</string>
+    <string name="status_service_stopped">Сервис заустављен</string>
+    <string name="status_service_starting">Покретање сервиса…</string>
+    <string name="status_service_running">Сервис ради, циљ: «%1$s»</string>
+    <string name="toast_enter_ssid">Унесите назив мреже</string>
+    <string-array name="interval_labels">
+        <item>5 сек.</item><item>10 сек.</item><item>20 сек.</item><item>30 сек.</item><item>60 сек.</item>
+    </string-array>
+    <string name="status_wifi_disabled_manual">Wi-Fi искључен ручно — не укључујем (покушај %1$d)</string>
+    <string name="status_wifi_enabling">Wi-Fi искључен — укључујем… (покушај %1$d)</string>
+    <string name="status_connected">✓ Повезано са «%1$s» (покушај %2$d)</string>
+    <string name="status_connecting">Повезивање са «%1$s»… (покушај %2$d)</string>
+    <string name="status_no_root">Root приступ није одобрен! Одобрите у Magisk. (покушај %1$d)</string>
+    <string name="status_network_not_found">Мрежа «%1$s» није пронађена. Повежите се ручно барем једном. (покушај %2$d)</string>
+    <string name="status_command_sent">[iface:%1$s] Команда за повезивање послата (покушај %2$d)</string>
+    <string name="status_error">Грешка при повезивању: %1$s (покушај %2$d)</string>
+    <string name="status_network_lost">Веза са «%1$s» прекинута — поново покушавам…</string>
+    <string name="status_service_launched">Сервис покренут, циљ: «%1$s»</string>
+    <string name="notification_channel_name">Wi-Fi Аутоматско повезивање</string>
+    <string name="notification_title">Wi-Fi Аутоматско повезивање</string>
+    <string name="notification_starting">Покретање…</string>
+    <string name="boot_worker_channel_name">Аутоматско покретање</string>
+    <string name="boot_worker_notification_text">Враћање сервиса након поновног покретања…</string>
+    <string name="toast_clear_while_connected">Да бисте изабрали другу мрежу, искључите Wi-Fi или се повежите на другу мрежу.</string>
+</resources>

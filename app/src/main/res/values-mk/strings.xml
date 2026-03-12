@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WiFi AutoConnect</string>
+    <string name="label_target_network">Целна Wi-Fi мрежа</string>
+    <string name="hint_ssid">Прво поврзете се со целната мрежа</string>
+    <string name="btn_clear">Исчисти</string>
+    <string name="btn_wifi_settings">Поставки за Wi-Fi</string>
+    <string name="label_interval">Интервал на обиди за поврзување</string>
+    <string name="btn_start_service">▶  Покрени сервис</string>
+    <string name="btn_stop_service">⏹  Запри сервис</string>
+    <string name="status_service_stopped">Сервисот е запрен</string>
+    <string name="status_service_starting">Покренување на сервисот…</string>
+    <string name="status_service_running">Сервисот работи, цел: «%1$s»</string>
+    <string name="toast_enter_ssid">Внесете го името на мрежата</string>
+    <string-array name="interval_labels">
+        <item>5 сек.</item><item>10 сек.</item><item>20 сек.</item><item>30 сек.</item><item>60 сек.</item>
+    </string-array>
+    <string name="status_wifi_disabled_manual">Wi-Fi исклучен рачно — не го вклучувам (обид %1$d)</string>
+    <string name="status_wifi_enabling">Wi-Fi исклучен — вклучувам… (обид %1$d)</string>
+    <string name="status_connected">✓ Поврзано со «%1$s» (обид %2$d)</string>
+    <string name="status_connecting">Поврзување со «%1$s»… (обид %2$d)</string>
+    <string name="status_no_root">Root пристапот не е одобрен! Дозволете во Magisk. (обид %1$d)</string>
+    <string name="status_network_not_found">Мрежата «%1$s» не е пронајдена. Поврзете се рачно барем еднаш. (обид %2$d)</string>
+    <string name="status_command_sent">[iface:%1$s] Командата за поврзување е испратена (обид %2$d)</string>
+    <string name="status_error">Грешка при поврзување: %1$s (обид %2$d)</string>
+    <string name="status_network_lost">Врската со «%1$s» е прекината — обидувам повторно…</string>
+    <string name="status_service_launched">Сервисот е покренат, цел: «%1$s»</string>
+    <string name="notification_channel_name">Wi-Fi Автоматско поврзување</string>
+    <string name="notification_title">Wi-Fi Автоматско поврзување</string>
+    <string name="notification_starting">Покренување…</string>
+    <string name="boot_worker_channel_name">Автоматско покренување</string>
+    <string name="boot_worker_notification_text">Обновување на сервисот по рестартирање…</string>
+    <string name="toast_clear_while_connected">За да изберете друга мрежа, исклучете Wi-Fi или поврзете се со друга мрежа.</string>
+</resources>

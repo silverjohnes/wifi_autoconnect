@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WiFi AutoConnect</string>
+    <string name="label_target_network">Ziel-WLAN-Netzwerk</string>
+    <string name="hint_ssid">Bitte zuerst mit dem Zielnetzwerk verbinden</string>
+    <string name="btn_clear">Löschen</string>
+    <string name="btn_wifi_settings">WLAN-Einstellungen</string>
+    <string name="label_interval">Intervall der Verbindungsversuche</string>
+    <string name="btn_start_service">▶  Dienst starten</string>
+    <string name="btn_stop_service">⏹  Dienst stoppen</string>
+    <string name="status_service_stopped">Dienst gestoppt</string>
+    <string name="status_service_starting">Dienst wird gestartet…</string>
+    <string name="status_service_running">Dienst aktiv, Ziel: «%1$s»</string>
+    <string name="toast_enter_ssid">Netzwerkname eingeben</string>
+    <string-array name="interval_labels">
+        <item>5 Sek.</item><item>10 Sek.</item><item>20 Sek.</item><item>30 Sek.</item><item>60 Sek.</item>
+    </string-array>
+    <string name="status_wifi_disabled_manual">WLAN manuell deaktiviert — wird nicht eingeschaltet (Versuch %1$d)</string>
+    <string name="status_wifi_enabling">WLAN aus — wird eingeschaltet… (Versuch %1$d)</string>
+    <string name="status_connected">✓ Verbunden mit «%1$s» (Versuch %2$d)</string>
+    <string name="status_connecting">Verbinde mit «%1$s»… (Versuch %2$d)</string>
+    <string name="status_no_root">Root-Zugriff nicht gewährt! In Magisk erlauben. (Versuch %1$d)</string>
+    <string name="status_network_not_found">Netzwerk «%1$s» nicht gefunden. Bitte zuerst manuell verbinden. (Versuch %2$d)</string>
+    <string name="status_command_sent">[Iface:%1$s] Befehl gesendet (Versuch %2$d)</string>
+    <string name="status_error">Verbindungsfehler: %1$s (Versuch %2$d)</string>
+    <string name="status_network_lost">Verbindung zu «%1$s» verloren — erneuter Versuch…</string>
+    <string name="status_service_launched">Dienst gestartet, Ziel: «%1$s»</string>
+    <string name="notification_channel_name">WLAN Auto-Verbindung</string>
+    <string name="notification_title">WLAN Auto-Verbindung</string>
+    <string name="notification_starting">Wird gestartet…</string>
+    <string name="boot_worker_channel_name">Autostart</string>
+    <string name="boot_worker_notification_text">Dienst nach Neustart wird wiederhergestellt…</string>
+    <string name="toast_clear_while_connected">Um ein anderes Netzwerk zu wählen, deaktivieren Sie Wi-Fi oder verbinden Sie sich mit einem anderen Netzwerk.</string>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WiFi AutoConnect</string>
+    <string name="label_target_network">Мэтавая сетка Wi-Fi</string>
+    <string name="hint_ssid">Спачатку падключыцеся да мэтавай сеткі</string>
+    <string name="btn_clear">Ачысціць</string>
+    <string name="btn_wifi_settings">Налады Wi-Fi</string>
+    <string name="label_interval">Інтэрвал спроб падключэння</string>
+    <string name="btn_start_service">▶  Запусціць сэрвіс</string>
+    <string name="btn_stop_service">⏹  Спыніць сэрвіс</string>
+    <string name="status_service_stopped">Сэрвіс спынены</string>
+    <string name="status_service_starting">Запуск сэрвісу…</string>
+    <string name="status_service_running">Сэрвіс працуе, мэта: «%1$s»</string>
+    <string name="toast_enter_ssid">Увядзіце назву сеткі</string>
+    <string-array name="interval_labels">
+        <item>5 сек.</item><item>10 сек.</item><item>20 сек.</item><item>30 сек.</item><item>60 сек.</item>
+    </string-array>
+    <string name="status_wifi_disabled_manual">Wi-Fi адключаны ўручную — не ўключаю (спроба %1$d)</string>
+    <string name="status_wifi_enabling">Wi-Fi адключаны — уключаю… (спроба %1$d)</string>
+    <string name="status_connected">✓ Падключана да «%1$s» (спроба %2$d)</string>
+    <string name="status_connecting">Падключэнне да «%1$s»… (спроба %2$d)</string>
+    <string name="status_no_root">Root-доступ не прадастаўлены! Дайце дазвол у Magisk. (спроба %1$d)</string>
+    <string name="status_network_not_found">Сетка «%1$s» не знойдзена. Падключыцеся ўручную хаця б аднойчы. (спроба %2$d)</string>
+    <string name="status_command_sent">[iface:%1$s] Каманда падключэння адпраўлена (спроба %2$d)</string>
+    <string name="status_error">Памылка падключэння: %1$s (спроба %2$d)</string>
+    <string name="status_network_lost">Злучэнне з «%1$s» страчана — паўтараю спробу…</string>
+    <string name="status_service_launched">Сэрвіс запушчаны, мэта: «%1$s»</string>
+    <string name="notification_channel_name">Wi-Fi Аўтападключэнне</string>
+    <string name="notification_title">Wi-Fi Аўтападключэнне</string>
+    <string name="notification_starting">Запуск…</string>
+    <string name="boot_worker_channel_name">Аўтазапуск</string>
+    <string name="boot_worker_notification_text">Аднаўленне сэрвісу пасля перазагрузкі…</string>
+    <string name="toast_clear_while_connected">Каб выбраць іншую сетку, адключыце Wi-Fi або падключыцеся да іншай сеткі.</string>
+</resources>

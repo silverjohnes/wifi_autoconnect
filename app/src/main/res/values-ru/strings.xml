@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WiFi AutoConnect</string>
+
+    <string name="label_target_network">Целевая сеть Wi-Fi</string>
+    <string name="hint_ssid">Подключитесь к целевой сети</string>
+    <string name="btn_clear">Очистить</string>
+    <string name="btn_wifi_settings">Настройки Wi-Fi</string>
+    <string name="label_interval">Интервал попыток подключения</string>
+    <string name="btn_start_service">▶  Запустить сервис</string>
+    <string name="btn_stop_service">⏹  Остановить сервис</string>
+    <string name="status_service_stopped">Сервис не запущен</string>
+    <string name="status_service_starting">Сервис запускается…</string>
+    <string name="status_service_running">Сервис работает, цель: «%1$s»</string>
+    <string name="toast_enter_ssid">Введите название сети</string>
+
+    <string-array name="interval_labels">
+        <item>5 сек</item>
+        <item>10 сек</item>
+        <item>20 сек</item>
+        <item>30 сек</item>
+        <item>60 сек</item>
+    </string-array>
+
+    <string name="status_wifi_disabled_manual">Wi-Fi выключен вручную — не включаю (попытка %1$d)</string>
+    <string name="status_wifi_enabling">Wi-Fi выключен — включаю… (попытка %1$d)</string>
+    <string name="status_connected">✓ Подключено к «%1$s» (попытка %2$d)</string>
+    <string name="status_connecting">Подключаюсь к «%1$s»… (попытка %2$d)</string>
+    <string name="status_no_root">Root-доступ не предоставлен! Выдайте разрешение в Magisk. (попытка %1$d)</string>
+    <string name="status_network_not_found">Сеть «%1$s» не найдена в сохранённых. Подключитесь вручную хотя бы раз. (попытка %2$d)</string>
+    <string name="status_command_sent">[iface:%1$s] Команда подключения отправлена (попытка %2$d)</string>
+    <string name="status_error">Ошибка подключения: %1$s (попытка %2$d)</string>
+    <string name="status_network_lost">Соединение с «%1$s» потеряно — пробую переподключиться…</string>
+    <string name="status_service_launched">Сервис запущен, цель: «%1$s»</string>
+
+    <string name="notification_channel_name">Wi-Fi Авто-подключение</string>
+    <string name="notification_title">Wi-Fi Авто-подключение</string>
+    <string name="notification_starting">Запуск…</string>
+    <string name="boot_worker_channel_name">Автозапуск</string>
+    <string name="boot_worker_notification_text">Восстановление сервиса после перезагрузки…</string>
+    <string name="toast_clear_while_connected">Для выбора другой сети отключите Wi-Fi или подключитесь к другой сети.</string>
+</resources>

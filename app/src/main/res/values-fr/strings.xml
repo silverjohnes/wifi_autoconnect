@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WiFi AutoConnect</string>
+    <string name="label_target_network">Réseau Wi-Fi cible</string>
+    <string name="hint_ssid">Connectez-vous d\'abord au réseau cible</string>
+    <string name="btn_clear">Effacer</string>
+    <string name="btn_wifi_settings">Paramètres Wi-Fi</string>
+    <string name="label_interval">Intervalle des tentatives</string>
+    <string name="btn_start_service">▶  Démarrer le service</string>
+    <string name="btn_stop_service">⏹  Arrêter le service</string>
+    <string name="status_service_stopped">Service arrêté</string>
+    <string name="status_service_starting">Démarrage du service…</string>
+    <string name="status_service_running">Service actif, cible : «%1$s»</string>
+    <string name="toast_enter_ssid">Entrez le nom du réseau</string>
+    <string-array name="interval_labels">
+        <item>5 sec</item><item>10 sec</item><item>20 sec</item><item>30 sec</item><item>60 sec</item>
+    </string-array>
+    <string name="status_wifi_disabled_manual">Wi-Fi désactivé manuellement — pas de réactivation (tentative %1$d)</string>
+    <string name="status_wifi_enabling">Wi-Fi éteint — activation… (tentative %1$d)</string>
+    <string name="status_connected">✓ Connecté à «%1$s» (tentative %2$d)</string>
+    <string name="status_connecting">Connexion à «%1$s»… (tentative %2$d)</string>
+    <string name="status_no_root">Accès root non accordé ! Autorisez dans Magisk. (tentative %1$d)</string>
+    <string name="status_network_not_found">Réseau «%1$s» introuvable. Connectez-vous manuellement d\'abord. (tentative %2$d)</string>
+    <string name="status_command_sent">[iface:%1$s] Commande envoyée (tentative %2$d)</string>
+    <string name="status_error">Erreur de connexion : %1$s (tentative %2$d)</string>
+    <string name="status_network_lost">Connexion à «%1$s» perdue — nouvelle tentative…</string>
+    <string name="status_service_launched">Service démarré, cible : «%1$s»</string>
+    <string name="notification_channel_name">Wi-Fi Connexion auto</string>
+    <string name="notification_title">Wi-Fi Connexion auto</string>
+    <string name="notification_starting">Démarrage…</string>
+    <string name="boot_worker_channel_name">Démarrage auto</string>
+    <string name="boot_worker_notification_text">Restauration du service après redémarrage…</string>
+    <string name="toast_clear_while_connected">Pour choisir un autre réseau, désactivez le Wi-Fi ou connectez-vous à un autre réseau.</string>
+</resources>

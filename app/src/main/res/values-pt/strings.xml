@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WiFi AutoConnect</string>
+    <string name="label_target_network">Rede Wi-Fi de destino</string>
+    <string name="hint_ssid">Conecte-se primeiro à rede de destino</string>
+    <string name="btn_clear">Limpar</string>
+    <string name="btn_wifi_settings">Configurações Wi-Fi</string>
+    <string name="label_interval">Intervalo de tentativas de conexão</string>
+    <string name="btn_start_service">▶  Iniciar serviço</string>
+    <string name="btn_stop_service">⏹  Parar serviço</string>
+    <string name="status_service_stopped">Serviço parado</string>
+    <string name="status_service_starting">Iniciando serviço…</string>
+    <string name="status_service_running">Serviço ativo, destino: «%1$s»</string>
+    <string name="toast_enter_ssid">Digite o nome da rede</string>
+    <string-array name="interval_labels">
+        <item>5 seg</item><item>10 seg</item><item>20 seg</item><item>30 seg</item><item>60 seg</item>
+    </string-array>
+    <string name="status_wifi_disabled_manual">Wi-Fi desativado manualmente — não será ligado (tentativa %1$d)</string>
+    <string name="status_wifi_enabling">Wi-Fi desligado — ligando… (tentativa %1$d)</string>
+    <string name="status_connected">✓ Conectado a «%1$s» (tentativa %2$d)</string>
+    <string name="status_connecting">Conectando a «%1$s»… (tentativa %2$d)</string>
+    <string name="status_no_root">Acesso root não concedido! Autorize no Magisk. (tentativa %1$d)</string>
+    <string name="status_network_not_found">Rede «%1$s» não encontrada. Conecte-se manualmente primeiro. (tentativa %2$d)</string>
+    <string name="status_command_sent">[iface:%1$s] Comando enviado (tentativa %2$d)</string>
+    <string name="status_error">Erro de conexão: %1$s (tentativa %2$d)</string>
+    <string name="status_network_lost">Conexão com «%1$s» perdida — tentando novamente…</string>
+    <string name="status_service_launched">Serviço iniciado, destino: «%1$s»</string>
+    <string name="notification_channel_name">Wi-Fi Conexão automática</string>
+    <string name="notification_title">Wi-Fi Conexão automática</string>
+    <string name="notification_starting">Iniciando…</string>
+    <string name="boot_worker_channel_name">Início automático</string>
+    <string name="boot_worker_notification_text">Restaurando serviço após reinicialização…</string>
+    <string name="toast_clear_while_connected">Para selecionar outra rede, desative o Wi-Fi ou conecte-se a uma rede diferente.</string>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WiFi AutoConnect</string>
+    <string name="label_target_network">Cieľová sieť Wi-Fi</string>
+    <string name="hint_ssid">Najprv sa pripojte k cieľovej sieti</string>
+    <string name="btn_clear">Vymazať</string>
+    <string name="btn_wifi_settings">Nastavenia Wi-Fi</string>
+    <string name="label_interval">Interval pokusov o pripojenie</string>
+    <string name="btn_start_service">▶  Spustiť službu</string>
+    <string name="btn_stop_service">⏹  Zastaviť službu</string>
+    <string name="status_service_stopped">Služba zastavená</string>
+    <string name="status_service_starting">Spúšťanie služby…</string>
+    <string name="status_service_running">Služba beží, cieľ: «%1$s»</string>
+    <string name="toast_enter_ssid">Zadajte názov siete</string>
+    <string-array name="interval_labels">
+        <item>5 sek.</item><item>10 sek.</item><item>20 sek.</item><item>30 sek.</item><item>60 sek.</item>
+    </string-array>
+    <string name="status_wifi_disabled_manual">Wi-Fi vypnuté ručne — nezapínam (pokus %1$d)</string>
+    <string name="status_wifi_enabling">Wi-Fi vypnuté — zapínam… (pokus %1$d)</string>
+    <string name="status_connected">✓ Pripojené k «%1$s» (pokus %2$d)</string>
+    <string name="status_connecting">Pripájanie k «%1$s»… (pokus %2$d)</string>
+    <string name="status_no_root">Prístup root nebol udelený! Povoľte v Magisk. (pokus %1$d)</string>
+    <string name="status_network_not_found">Sieť «%1$s» nenájdená. Pripojte sa raz ručne. (pokus %2$d)</string>
+    <string name="status_command_sent">[iface:%1$s] Príkaz pripojenia odoslaný (pokus %2$d)</string>
+    <string name="status_error">Chyba pripojenia: %1$s (pokus %2$d)</string>
+    <string name="status_network_lost">Spojenie s «%1$s» stratené — skúšam znovu…</string>
+    <string name="status_service_launched">Služba spustená, cieľ: «%1$s»</string>
+    <string name="notification_channel_name">Wi-Fi Automatické pripojenie</string>
+    <string name="notification_title">Wi-Fi Automatické pripojenie</string>
+    <string name="notification_starting">Spúšťanie…</string>
+    <string name="boot_worker_channel_name">Automatické spustenie</string>
+    <string name="boot_worker_notification_text">Obnova služby po reštarte…</string>
+    <string name="toast_clear_while_connected">Ak chcete vybrať inú sieť, vypnite Wi-Fi alebo sa pripojte k inej sieti.</string>
+</resources>

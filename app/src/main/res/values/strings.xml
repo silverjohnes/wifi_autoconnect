@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Default locale: English -->
+<resources>
+    <string name="app_name">WiFi AutoConnect</string>
+
+    <!-- UI labels -->
+    <string name="label_target_network">Target Wi-Fi Network</string>
+    <string name="hint_ssid">Connect to the target network first</string>
+    <string name="btn_clear">Clear</string>
+    <string name="btn_wifi_settings">Wi-Fi Settings</string>
+    <string name="label_interval">Connection attempt interval</string>
+    <string name="btn_start_service">▶  Start service</string>
+    <string name="btn_stop_service">⏹  Stop service</string>
+    <string name="status_service_stopped">Service stopped</string>
+    <string name="status_service_starting">Service starting…</string>
+    <string name="status_service_running">Service running, target: «%1$s»</string>
+    <string name="toast_enter_ssid">Enter network name</string>
+
+    <!-- Interval labels -->
+    <string-array name="interval_labels">
+        <item>5 sec</item>
+        <item>10 sec</item>
+        <item>20 sec</item>
+        <item>30 sec</item>
+        <item>60 sec</item>
+    </string-array>
+
+    <!-- Service status messages -->
+    <string name="status_wifi_disabled_manual">Wi-Fi disabled manually — not turning on (attempt %1$d)</string>
+    <string name="status_wifi_enabling">Wi-Fi is off — turning on… (attempt %1$d)</string>
+    <string name="status_connected">✓ Connected to «%1$s» (attempt %2$d)</string>
+    <string name="status_connecting">Connecting to «%1$s»… (attempt %2$d)</string>
+    <string name="status_no_root">Root access not granted! Allow it in Magisk. (attempt %1$d)</string>
+    <string name="status_network_not_found">Network «%1$s» not found in saved networks. Connect manually first. (attempt %2$d)</string>
+    <string name="status_command_sent">[iface:%1$s] Connection command sent (attempt %2$d)</string>
+    <string name="status_error">Connection error: %1$s (attempt %2$d)</string>
+    <string name="status_network_lost">Connection to «%1$s» lost — retrying…</string>
+    <string name="status_service_launched">Service started, target: «%1$s»</string>
+
+    <!-- Notification -->
+    <string name="notification_channel_name">Wi-Fi Auto-Connect</string>
+    <string name="notification_title">Wi-Fi Auto-Connect</string>
+    <string name="notification_starting">Starting…</string>
+    <string name="boot_worker_channel_name">Auto-start</string>
+    <string name="boot_worker_notification_text">Restoring service after reboot…</string>
+    <string name="toast_clear_while_connected">To select another network, disconnect Wi-Fi or connect to a different network first.</string>
+</resources>

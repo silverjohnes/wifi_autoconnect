@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WiFi AutoConnect</string>
+    <string name="label_target_network">شبكة Wi-Fi المستهدفة</string>
+    <string name="hint_ssid">اتصل أولاً بالشبكة المستهدفة</string>
+    <string name="btn_clear">مسح</string>
+    <string name="btn_wifi_settings">إعدادات Wi-Fi</string>
+    <string name="label_interval">فترة محاولات الاتصال</string>
+    <string name="btn_start_service">▶  بدء الخدمة</string>
+    <string name="btn_stop_service">⏹  إيقاف الخدمة</string>
+    <string name="status_service_stopped">الخدمة متوقفة</string>
+    <string name="status_service_starting">جارٍ بدء الخدمة…</string>
+    <string name="status_service_running">الخدمة تعمل، الهدف: «%1$s»</string>
+    <string name="toast_enter_ssid">أدخل اسم الشبكة</string>
+    <string-array name="interval_labels">
+        <item>٥ ث</item><item>١٠ ث</item><item>٢٠ ث</item><item>٣٠ ث</item><item>٦٠ ث</item>
+    </string-array>
+    <string name="status_wifi_disabled_manual">تم إيقاف Wi-Fi يدوياً — لن يتم تشغيله (المحاولة %1$d)</string>
+    <string name="status_wifi_enabling">Wi-Fi مُغلق — جارٍ التشغيل… (المحاولة %1$d)</string>
+    <string name="status_connected">✓ متصل بـ «%1$s» (المحاولة %2$d)</string>
+    <string name="status_connecting">جارٍ الاتصال بـ «%1$s»… (المحاولة %2$d)</string>
+    <string name="status_no_root">لم يُمنح وصول الجذر! يرجى السماح في Magisk. (المحاولة %1$d)</string>
+    <string name="status_network_not_found">الشبكة «%1$s» غير موجودة. اتصل يدوياً أولاً. (المحاولة %2$d)</string>
+    <string name="status_command_sent">[iface:%1$s] تم إرسال أمر الاتصال (المحاولة %2$d)</string>
+    <string name="status_error">خطأ في الاتصال: %1$s (المحاولة %2$d)</string>
+    <string name="status_network_lost">انقطع الاتصال بـ «%1$s» — جارٍ إعادة المحاولة…</string>
+    <string name="status_service_launched">بدأت الخدمة، الهدف: «%1$s»</string>
+    <string name="notification_channel_name">Wi-Fi اتصال تلقائي</string>
+    <string name="notification_title">Wi-Fi اتصال تلقائي</string>
+    <string name="notification_starting">جارٍ البدء…</string>
+    <string name="boot_worker_channel_name">بدء تلقائي</string>
+    <string name="boot_worker_notification_text">جارٍ استعادة الخدمة بعد إعادة التشغيل…</string>
+    <string name="toast_clear_while_connected">لاختيار شبكة أخرى، أوقف تشغيل Wi-Fi أو اتصل بشبكة مختلفة.</string>
+</resources>

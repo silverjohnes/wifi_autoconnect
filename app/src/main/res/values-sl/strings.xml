@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WiFi AutoConnect</string>
+    <string name="label_target_network">Ciljno omrežje Wi-Fi</string>
+    <string name="hint_ssid">Najprej se povežite s ciljnim omrežjem</string>
+    <string name="btn_clear">Počisti</string>
+    <string name="btn_wifi_settings">Nastavitve Wi-Fi</string>
+    <string name="label_interval">Interval poskusov povezave</string>
+    <string name="btn_start_service">▶  Zaženi storitev</string>
+    <string name="btn_stop_service">⏹  Ustavi storitev</string>
+    <string name="status_service_stopped">Storitev ustavljena</string>
+    <string name="status_service_starting">Zaganjanje storitve…</string>
+    <string name="status_service_running">Storitev deluje, cilj: «%1$s»</string>
+    <string name="toast_enter_ssid">Vnesite ime omrežja</string>
+    <string-array name="interval_labels">
+        <item>5 sek.</item><item>10 sek.</item><item>20 sek.</item><item>30 sek.</item><item>60 sek.</item>
+    </string-array>
+    <string name="status_wifi_disabled_manual">Wi-Fi ročno izklopljen — ne vklapljam (poskus %1$d)</string>
+    <string name="status_wifi_enabling">Wi-Fi izklopljen — vklapljam… (poskus %1$d)</string>
+    <string name="status_connected">✓ Povezano z «%1$s» (poskus %2$d)</string>
+    <string name="status_connecting">Povezovanje z «%1$s»… (poskus %2$d)</string>
+    <string name="status_no_root">Dostop root ni bil odobren! Dovolite v Magisk. (poskus %1$d)</string>
+    <string name="status_network_not_found">Omrežje «%1$s» ni najdeno. Enkrat se ročno povežite. (poskus %2$d)</string>
+    <string name="status_command_sent">[iface:%1$s] Ukaz za povezavo poslan (poskus %2$d)</string>
+    <string name="status_error">Napaka pri povezavi: %1$s (poskus %2$d)</string>
+    <string name="status_network_lost">Povezava z «%1$s» prekinjena — poskušam znova…</string>
+    <string name="status_service_launched">Storitev zagotovljena, cilj: «%1$s»</string>
+    <string name="notification_channel_name">Wi-Fi Samodejna povezava</string>
+    <string name="notification_title">Wi-Fi Samodejna povezava</string>
+    <string name="notification_starting">Zaganjanje…</string>
+    <string name="boot_worker_channel_name">Samodejni zagon</string>
+    <string name="boot_worker_notification_text">Obnavljanje storitve po ponovnem zagonu…</string>
+    <string name="toast_clear_while_connected">Za izbiro drugega omrežja izklopite Wi-Fi ali se povežite z drugim omrežjem.</string>
+</resources>
