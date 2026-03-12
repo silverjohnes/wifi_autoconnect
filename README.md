@@ -6,7 +6,11 @@
 
 ## Русский
 
-Приложение для **рутованных Android-устройств**, которое автоматически переподключается к сохранённой Wi-Fi точке доступа в фоне. Создано для автомагнитол и других Android-устройств, работающих постоянно.
+Приложение для **рутованных Android-устройств**, которое автоматически переподключается к сохранённой Wi-Fi точке доступа в фоне.
+
+Программа решает задачу подключения Андроид-магнитолы к точке доступа на iPhone. Проблема с таким подключением заключается в том, что на iPhone реализован проприетарный механизм вещания точки доступа, ограниченный только устройствами экосистемы Apple (то есть точку доступа с телефона всегда видят только другие устройства из экосистемы). При включении точки доступа на iPhone через Пункт управления, Настройки или другим способом (Команды при обнаружении автомобиля или чипа в зарядном устройстве) через короткое время видимость точки доступа пропадает.
+
+При этом, таймаут подключения к Wi-fi-сетям у Андроида дольше, чем время работы точки, из-за этого магнитола может успеть, а может не успеть подключиться к телефону до выключения точки доступа. Программа запускает сервис, который автоматически подключается к заданной точке доступа с небольшим интервалом времени, достаточным чтобы гарантировать успешное подключение.
 
 ### Возможности
 
@@ -97,7 +101,11 @@ adb logcat -s WifiConnectService
 
 ## English
 
-An Android app for **rooted devices** that automatically reconnects to a saved Wi-Fi hotspot in the background. Built for car head units and similar always-on Android devices.
+An application for **rooted Android devices** that automatically reconnects to a saved Wi-Fi hotspot in the background. The program solves the problem of connecting an Android head unit to a hotspot on an iPhone.
+
+The issue with such a connection is that the iPhone uses a proprietary hotspot broadcasting mechanism that is limited to devices within the Apple ecosystem (that is, the hotspot from the phone is always visible only to other devices from the ecosystem). When the hotspot is enabled on the iPhone via Control Center, Settings, or by other means (such as Shortcuts triggered by detecting a car or a chip in the charger), the hotspot visibility disappears after a short time.
+
+At the same time, Android’s timeout for connecting to Wi-Fi networks is longer than the time the hotspot remains visible. Because of this, the head unit may or may not manage to connect to the phone before the hotspot disappears. The application runs a service that automatically attempts to connect to the specified hotspot at short intervals, sufficient to reliably ensure a successful connection
 
 ### Features
 
